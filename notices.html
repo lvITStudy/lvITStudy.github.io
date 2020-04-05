@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Language" content="zh-CN">
+    <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+    <!--<meta http-equiv="refresh" content="0;url=https://mp.weixin.qq.com/s/1o6I1uIH4TNSMKv_zyXZfA">-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    <script>
+        // setTimeout(function(){
+        //     console.log('本文总阅读量：'+document.getElementById("busuanzi_value_page_pv").innerHTML);
+        //     console.log('本站总访问量：'+document.getElementById("busuanzi_value_site_pv").innerHTML);
+        //     console.log('本站总访客数：'+document.getElementById("busuanzi_value_site_uv").innerHTML);
+        // ;}, 3000);
+        // window.onload = function(){
+        //     var count = document.getElementById("busuanzi_value_page_pv").innerHTML;
+        //     var pv = document.getElementById("busuanzi_value_site_pv").innerHTML;
+        //     var uv = document.getElementById("busuanzi_value_site_uv").innerHTML;
+        //     setInterval(function(){
+        //             location.href="https://mp.weixin.qq.com/s/1o6I1uIH4TNSMKv_zyXZfA?count="+count+"&pv="+pv+"&uv="+uv;
+        //     },100);
+        // }
+        setTimeout(function(){
+            var count = document.getElementById("busuanzi_value_page_pv").innerHTML;
+            var pv = document.getElementById("busuanzi_value_site_pv").innerHTML;
+            var uv = document.getElementById("busuanzi_value_site_uv").innerHTML;
+            location.href="https://mp.weixin.qq.com/s/1o6I1uIH4TNSMKv_zyXZfA?count="+count+"&pv="+pv+"&uv="+uv;
+        }, 500);
+        // setTimeout("javascript:location.href='https://mp.weixin.qq.com/s/1o6I1uIH4TNSMKv_zyXZfA?count=\"+count+\"&pv=\"+pv+\"&uv=\"+uv'",5000);
+    </script>
+</head>
+<body>
+
+<div style="display:none;">
+    <div>
+            <span id="busuanzi_container_page_pv" style="display: inline;">
+                <div>
+                    本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+                </div>
+            </span>
+    </div>
+    <div>
+                <span id="busuanzi_container_site_pv" style="display: inline;">
+                    <div >
+                        本站总访问量<span id="busuanzi_value_site_pv"></span>次
+                    </div>
+                </span>
+    </div>
+    <div>
+            <span id="busuanzi_container_site_uv" style="display: inline;">
+                 <div>
+                     本站总访客数<span id="busuanzi_value_site_uv"></span>人
+                 </div>
+            </span>
+    </div>
+</div>
+</body>
+</html>
+
